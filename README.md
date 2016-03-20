@@ -5,6 +5,8 @@ You don't need to use node to serve a harp site - you can just compile the files
 
 This is a container that has node and harp available, to compile and install the static site, that nginx serves.
 
+On top of node and harp a few common gulp packages are included to provide a build pipeline.
+
 You can use our container: `docker pull xorcode/harp-nginx`
 
 Or you can build your own:
