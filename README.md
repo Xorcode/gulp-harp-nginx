@@ -7,19 +7,19 @@ This is a container that has node and harp available, to compile and install the
 
 On top of node and harp a few common gulp packages are included to provide a build pipeline.
 
-You can use our container: `docker pull xorcode/harp-nginx`
+You can use our container: `docker pull xorcode/gulp-harp-nginx`
 
 Or you can build your own:
 
 ```
-docker build -t your-name-here/harp-nginx .
-docker push your-name-here/harp-nginx
+docker build -t your-name-here/gulp-harp-nginx .
+docker push your-name-here/gulp-harp-nginx
 ```
 
 After this - just add this Dockerfile to your Harp repo:
 
 ```
-FROM xorcode/harp-nginx
+FROM xorcode/gulp-harp-nginx
 
 WORKDIR /srv/www
 
